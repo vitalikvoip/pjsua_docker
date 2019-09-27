@@ -1,10 +1,11 @@
-# pjsua_tests
-
-# Docs
+### pjsua_tests
+### Docs
+```
 Usage:  ./test.py  file.csv domain outbound_proxy [protocol]
-
+```
+```
 Usage: ./ua.py options
-          options:
+options:
               -l [login],       --login=[login]
               -p [password],    --password=[password]
               -d [domain],      --domain=[domain]
@@ -13,14 +14,15 @@ Usage: ./ua.py options
               -m                --media                <= optional
               -h                --help                 <= optional
               -v                --verbose              <= optional
+```
 
-# Running a test
-./test.py ifctest_load_test_accouts.txt ifctest.net lab.ifctest.net
+### Running a test
+```./test.py ifctest_load_test_accouts.txt domain outboundproxy```
 
-# Stopping test
+### Stopping test
 ctrl+c
 
-# file.csv format
+### file.csv format
 123456 QAZWSXQAZWSX
 
-# where login is 123456 and password is QAZWSXQAZWSX
+### where login is 123456 and password is QAZWSXQAZWSX
