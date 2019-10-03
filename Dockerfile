@@ -9,6 +9,7 @@ WORKDIR /usr/local/src
 RUN apt-get update
 RUN apt-get install -y apt-utils procps net-tools python python-dev wget tar nano
 RUN apt-get install -y build-essential git bison flex m4 pkg-config libncurses5-dev
+RUN apt-get install -y libssl1.1 libssl-dev
 
 RUN wget https://www.pjsip.org/release/2.9/pjproject-2.9.tar.bz2 && tar -xjf pjproject-2.9.tar.bz2
 
