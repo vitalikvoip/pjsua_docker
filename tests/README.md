@@ -17,7 +17,7 @@ options:
 ```
 
 ### Running a test
-```./test.py ifctest_load_test_accouts.txt domain outboundproxy```
+```./test.py test_accouts.txt domain outboundproxy tls```
 
 ### Stopping test
 ctrl+c
